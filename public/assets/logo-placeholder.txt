@@ -1,0 +1,14 @@
+Logo Placeholder
+
+Please add your clinic logo here:
+- File name: logo.png or logo.jpg
+- Recommended size: 200x200px or 300x300px
+- Format: PNG (with transparent background) or JPG
+
+The logo will be used in:
+1. PDF invoices (top left corner)
+2. PDF prescriptions (top left corner)
+3. App header
+4. PWA manifest (app icon)
+
+If you have the logo file (1000116931.jpg), place it in this folder and rename to logo.png

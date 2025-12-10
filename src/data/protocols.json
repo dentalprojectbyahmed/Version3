@@ -1,0 +1,1224 @@
+{
+  "protocols": {
+    "C003": {
+      "conditionId": "C003",
+      "conditionName": "Pericoronitis",
+      "premium": {
+        "medications": [
+          {
+            "name": "Amoxi-Clav (Amoxicillin + Clavulanic Acid)",
+            "dosage": "625 mg",
+            "frequency": "Twice daily (BD)",
+            "duration": "5-7 days"
+          },
+          {
+            "name": "Brufen (Ibuprofen)",
+            "dosage": "400 mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "As needed for pain/swelling"
+          }
+        ],
+        "instructions": "Rinse mouth with warm salt water (1 teaspoon of salt in a glass of warm water) 3-4 times a day. Maintain strict oral hygiene, especially around the affected tooth. Avoid hard or sharp foods. Follow up with a dentist for definitive treatment (e.g., operculectomy or extraction).",
+        "warnings": "Do not take Ibuprofen on an empty stomach. Discontinue use and consult a doctor immediately if you experience severe diarrhea, rash, or difficulty breathing."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Flagyl (Metronidazole)",
+            "dosage": "400 mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "5-7 days"
+          },
+          {
+            "name": "Supramox (Amoxicillin)",
+            "dosage": "500 mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "5-7 days"
+          },
+          {
+            "name": "Panadol (Paracetamol)",
+            "dosage": "500 mg",
+            "frequency": "Three to four times daily (TDS/QID)",
+            "duration": "As needed for pain/fever"
+          }
+        ],
+        "instructions": "Rinse mouth with warm salt water 3-4 times a day. Maintain good oral hygiene. Avoid alcohol while taking Metronidazole and for 48 hours after the last dose.",
+        "warnings": "Metronidazole can cause a metallic taste in the mouth and nausea. Avoid alcohol completely during treatment. Paracetamol should not exceed 4000mg in 24 hours."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Supramox (Amoxicillin)",
+            "dosage": "500 mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "5-7 days"
+          },
+          {
+            "name": "Panadol (Paracetamol)",
+            "dosage": "500 mg",
+            "frequency": "Three to four times daily (TDS/QID)",
+            "duration": "As needed for pain/fever"
+          }
+        ],
+        "instructions": "Rinse mouth with warm salt water 3-4 times a day. Gently clean the area around the affected tooth. Seek dental consultation as soon as possible.",
+        "warnings": "If symptoms worsen or do not improve within 3 days, seek immediate medical attention. Paracetamol overdose can cause liver damage."
+      }
+    },
+    "C004": {
+      "conditionId": "C004",
+      "conditionName": "Dry Socket",
+      "premium": {
+        "medications": [
+          {
+            "name": "Alveogyl (Septodont) or Alvo Paste (Greentech)",
+            "dosage": "As required",
+            "frequency": "Single application by dentist",
+            "duration": "Until self-elimination"
+          },
+          {
+            "name": "Provas Duo (Paracetamol 500mg + Ibuprofen 200mg)",
+            "dosage": "1 tablet",
+            "frequency": "Every 6 hours",
+            "duration": "3-5 days"
+          },
+          {
+            "name": "Azomax (Azithromycin)",
+            "dosage": "500mg",
+            "frequency": "Once daily",
+            "duration": "3 days"
+          }
+        ],
+        "instructions": "Immediate placement of medicated dressing (Alveogyl/Alvo Paste) into the socket after irrigation. Take Provas Duo for pain relief. Complete the 3-day course of Azomax. Rinse gently with warm salt water 3-4 times a day, starting 24 hours after dressing placement. Avoid smoking and strenuous activity.",
+        "warnings": "Antibiotics (Azomax) should only be used if signs of infection are present or if the patient is immunocompromised, as dry socket is primarily a pain issue. Do not take Provas Duo on an empty stomach. Seek immediate dental care if pain worsens or swelling occurs."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Hemostop-A Alveogyl (Tehno Dent) or Alvo Paste (Greentech)",
+            "dosage": "As required",
+            "frequency": "Single application by dentist",
+            "duration": "Until self-elimination"
+          },
+          {
+            "name": "Fufen (Ibuprofen)",
+            "dosage": "400mg",
+            "frequency": "Every 6 hours",
+            "duration": "3-5 days"
+          },
+          {
+            "name": "Clinica Mouth Wash (Chlorhexidine Gluconate 0.2%)",
+            "dosage": "10ml",
+            "frequency": "Twice daily",
+            "duration": "7 days"
+          }
+        ],
+        "instructions": "Placement of medicated dressing (Hemostop-A/Alvo Paste) into the socket after irrigation. Take Fufen for pain relief. Rinse with Clinica Mouth Wash for 1 minute, twice daily, 30 minutes after brushing. Gently rinse with warm salt water 3-4 times a day. Avoid smoking and strenuous activity.",
+        "warnings": "Chlorhexidine rinse should not be swallowed and may cause temporary staining of teeth with prolonged use. Do not take Fufen on an empty stomach. Seek immediate dental care if pain worsens or swelling occurs."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Gauze with Eugenol/Clove Oil",
+            "dosage": "As required",
+            "frequency": "Single application by dentist",
+            "duration": "24-48 hours, then replaced if needed"
+          },
+          {
+            "name": "Panadol (Paracetamol)",
+            "dosage": "500mg",
+            "frequency": "Every 6 hours",
+            "duration": "3-5 days"
+          }
+        ],
+        "instructions": "Placement of a simple eugenol-soaked gauze dressing into the socket after irrigation. Take Panadol for pain relief. Gently rinse with warm salt water 3-4 times a day. Avoid smoking and strenuous activity.",
+        "warnings": "Eugenol dressing may have a strong taste and should be removed/replaced by the dentist. Do not exceed the maximum daily dose of Panadol (4000mg). Seek immediate dental care if pain worsens or swelling occurs."
+      }
+    },
+    "C007": {
+      "conditionId": "C007",
+      "conditionName": "Periodontitis",
+      "premium": {
+        "medications": [
+          {
+            "name": "Amoxil (Amoxicillin)",
+            "dosage": "500 mg",
+            "frequency": "Three times a day (TDS)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Flagyl (Metronidazole)",
+            "dosage": "400 mg",
+            "frequency": "Three times a day (TDS)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Ansaid (Flurbiprofen)",
+            "dosage": "100 mg",
+            "frequency": "Twice a day (BD)",
+            "duration": "3-5 days"
+          }
+        ],
+        "instructions": "Take antibiotics (Amoxil and Flagyl) exactly as prescribed for the full 7 days, even if symptoms improve. Take Ansaid with food to minimize stomach upset. Maintain strict oral hygiene, including brushing twice daily and interdental cleaning. Follow up with a dentist for scaling and root planing (SRP).",
+        "warnings": "Do not consume alcohol while taking Flagyl and for at least 48 hours after the last dose. Discontinue Ansaid and consult a doctor if you experience severe stomach pain or black stools."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Amoxi-Clav (Amoxicillin/Clavulanate)",
+            "dosage": "625 mg",
+            "frequency": "Three times a day (TDS)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Brufen (Ibuprofen)",
+            "dosage": "400 mg",
+            "frequency": "Three times a day (TDS)",
+            "duration": "3-5 days"
+          }
+        ],
+        "instructions": "Take Amoxi-Clav exactly as prescribed for the full 7 days. Take Brufen with food to prevent gastric irritation. Maintain strict oral hygiene. Follow up with a dentist for scaling and root planing (SRP).",
+        "warnings": "Do not take Amoxi-Clav if you have a known penicillin allergy. Discontinue Brufen and consult a doctor if you experience severe stomach pain or signs of an allergic reaction."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Flagyl (Metronidazole)",
+            "dosage": "400 mg",
+            "frequency": "Three times a day (TDS)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Panadol (Paracetamol)",
+            "dosage": "500 mg",
+            "frequency": "Three times a day (TDS)",
+            "duration": "3-5 days"
+          }
+        ],
+        "instructions": "Take Flagyl exactly as prescribed for the full 7 days. Take Panadol as needed for pain. Maintain strict oral hygiene. Follow up with a dentist for scaling and root planing (SRP).",
+        "warnings": "Do not consume alcohol while taking Flagyl and for at least 48 hours after the last dose. Do not exceed the recommended dose of Panadol as it can cause liver damage."
+      }
+    },
+    "C010": {
+      "conditionId": "C010",
+      "conditionName": "Aphthous Ulcers",
+      "premium": {
+        "medications": [
+          {
+            "name": "Kenalog in Orabase",
+            "dosage": "0.1% Triamcinolone Acetonide Oral Paste",
+            "frequency": "3 times daily (after meals and at bedtime)",
+            "duration": "5-7 days"
+          }
+        ],
+        "instructions": "Apply a small dab (approx. 1/4 inch) to cover the lesion without rubbing. Do not eat or drink for 30 minutes after application.",
+        "warnings": "For oral use only. Do not use for more than 7 days without consulting a dentist. Systemic absorption is possible with prolonged use."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Somogel",
+            "dosage": "Lignocaine, Menthol, Cetylpyridinium chloride Gel",
+            "frequency": "4 times daily (after meals and at bedtime)",
+            "duration": "5-7 days"
+          }
+        ],
+        "instructions": "Dry the ulcer surface before application for better adhesion. Apply a small amount to the affected area. Do not eat or drink for 30 minutes after application.",
+        "warnings": "Discontinue use if irritation or swelling occurs. Keep out of reach of children."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Bonjela Gel",
+            "dosage": "Choline Salicylate and Cetalkonium Chloride Gel",
+            "frequency": "Every 3 hours, as needed for pain",
+            "duration": "5-7 days"
+          }
+        ],
+        "instructions": "Apply a small amount directly to the ulcer with a clean finger. Do not exceed recommended frequency.",
+        "warnings": "Contains salicylate. Do not use in children under 16 years of age due to the risk of Reye's Syndrome. Discontinue use if irritation persists."
+      }
+    },
+    "C011": {
+      "conditionId": "C011",
+      "conditionName": "TMJ Pain",
+      "premium": {
+        "medications": [
+          {
+            "name": "Celecoxib (e.g., Celoxib, Celebrex)",
+            "dosage": "200 mg",
+            "frequency": "Twice daily (BD)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Tizanidine (e.g., Movax, Tenz)",
+            "dosage": "2 mg",
+            "frequency": "At night (HS)",
+            "duration": "7 days"
+          }
+        ],
+        "instructions": "Take medications with food to minimize stomach upset. Apply moist heat to the jaw area for 15 minutes, 3-4 times a day. Stick to a soft diet and avoid chewing gum or hard foods. Practice gentle jaw stretching exercises as advised by a physical therapist.",
+        "warnings": "Celecoxib may increase the risk of serious cardiovascular thrombotic events, myocardial infarction, and stroke. Tizanidine can cause drowsiness; avoid driving or operating heavy machinery. Do not use if you have a known allergy to sulfonamides."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Naproxen Sodium (e.g., Anaprox, Naprosyn)",
+            "dosage": "500 mg",
+            "frequency": "Twice daily (BD)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Amitriptyline (e.g., Levate, Tryptanol)",
+            "dosage": "10 mg",
+            "frequency": "At night (HS)",
+            "duration": "7 days"
+          }
+        ],
+        "instructions": "Take Naproxen with food or milk. Avoid caffeine and alcohol, especially when taking Amitriptyline. Maintain good posture and avoid resting your chin on your hand. Use a custom-fitted occlusal splint (night guard) if available.",
+        "warnings": "Naproxen can cause gastrointestinal bleeding. Amitriptyline can cause dry mouth, drowsiness, and blurred vision. Use caution in patients with a history of heart problems or glaucoma."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Ibuprofen (e.g., Brufen, Advil)",
+            "dosage": "400 mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Paracetamol/Acetaminophen (e.g., Panadol, Calpol)",
+            "dosage": "500 mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "7 days"
+          }
+        ],
+        "instructions": "Take Ibuprofen with food. Rest the jaw as much as possible. Apply ice packs to the affected area for 10-15 minutes, several times a day. Avoid wide yawning or shouting.",
+        "warnings": "Do not exceed the recommended dose of Ibuprofen or Paracetamol. Excessive use of Paracetamol can lead to liver damage. Ibuprofen is contraindicated in patients with severe kidney or liver disease."
+      }
+    },
+    "C012": {
+      "conditionId": "C012",
+      "conditionName": "Trigeminal Neuralgia",
+      "premium": {
+        "medications": [
+          {
+            "name": "Oxcarbazepine (e.g., Telox, Trioptal)",
+            "dosage": "300 mg",
+            "frequency": "Twice daily (BD)",
+            "duration": "Long-term, as needed"
+          },
+          {
+            "name": "Lacosamide (e.g., Lacolep, Lalik)",
+            "dosage": "50 mg",
+            "frequency": "Twice daily (BD)",
+            "duration": "Long-term, as needed"
+          }
+        ],
+        "instructions": "Start with Oxcarbazepine and titrate the dose slowly until pain relief is achieved (up to 1800 mg/day). If pain is refractory, add Lacosamide and titrate its dose (up to 400 mg/day). Take both medications with food to minimize stomach upset.",
+        "warnings": "May cause dizziness, drowsiness, and double vision. Monitor for severe skin reactions (e.g., Stevens-Johnson syndrome) and hyponatremia (low sodium levels). Do not stop abruptly."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Carbamazepine (e.g., Tegral, Teril)",
+            "dosage": "200 mg",
+            "frequency": "Twice daily (BD)",
+            "duration": "Long-term, as needed"
+          },
+          {
+            "name": "Gabapentin (e.g., Gabix, Gabon)",
+            "dosage": "300 mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "Long-term, as needed"
+          }
+        ],
+        "instructions": "Start with Carbamazepine and titrate the dose slowly until pain relief is achieved (up to 1200 mg/day). Gabapentin can be added for breakthrough pain or if Carbamazepine is not fully effective. Take with food.",
+        "warnings": "May cause dizziness, drowsiness, and unsteadiness. Requires baseline and periodic monitoring of complete blood count (CBC) and liver function tests (LFTs) due to risk of blood dyscrasias and hepatotoxicity. Do not stop abruptly."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Carbamazepine (e.g., Carbanil, Episiez)",
+            "dosage": "100 mg",
+            "frequency": "Twice daily (BD)",
+            "duration": "Long-term, as needed"
+          }
+        ],
+        "instructions": "Start with a low dose of Carbamazepine and increase slowly every 2-3 days until pain is controlled (up to 1200 mg/day). Take with food.",
+        "warnings": "May cause dizziness, drowsiness, and unsteadiness. Requires baseline and periodic monitoring of complete blood count (CBC) and liver function tests (LFTs). Do not stop abruptly."
+      }
+    },
+    "C013": {
+      "conditionId": "C013",
+      "conditionName": "Post-Operative Pain",
+      "premium": {
+        "medications": [
+          {
+            "name": "Brufen (Ibuprofen)",
+            "dosage": "400mg",
+            "frequency": "Every 6 hours",
+            "duration": "3-5 days"
+          },
+          {
+            "name": "Panadol (Paracetamol)",
+            "dosage": "1000mg (2 tablets)",
+            "frequency": "Every 6 hours",
+            "duration": "3-5 days"
+          }
+        ],
+        "instructions": "Take both medications together with food. Do not exceed 4 doses in 24 hours.",
+        "warnings": "Do not take if allergic to NSAIDs or Paracetamol. Consult a doctor if pain persists or if you have liver/kidney issues."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Dyclo / Arnil (Diclofenac Sodium)",
+            "dosage": "50mg",
+            "frequency": "Every 8 hours",
+            "duration": "3-5 days"
+          }
+        ],
+        "instructions": "Take with food. Do not crush or chew the tablet.",
+        "warnings": "Do not take if you have a history of stomach ulcers, bleeding disorders, or severe heart/kidney/liver disease."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Panadol (Paracetamol)",
+            "dosage": "1000mg (2 tablets)",
+            "frequency": "Every 6 hours",
+            "duration": "3-5 days"
+          }
+        ],
+        "instructions": "Can be taken with or without food. Do not exceed 4 doses in 24 hours.",
+        "warnings": "Do not exceed 8 tablets (4000mg) in 24 hours. Consult a doctor if pain persists or if you have liver issues."
+      }
+    },
+    "C014": {
+      "conditionId": "C014",
+      "conditionName": "Post-RCT Pain",
+      "premium": {
+        "medications": [
+          {
+            "name": "Serral (Serratiopeptidase 10mg)",
+            "dosage": "10mg",
+            "frequency": "Twice daily (BD)",
+            "duration": "3 days"
+          },
+          {
+            "name": "Surgam (Tiaprofenic Acid 300mg)",
+            "dosage": "300mg",
+            "frequency": "Twice daily (BD)",
+            "duration": "3 days"
+          },
+          {
+            "name": "Amoxil (Amoxicillin 500mg)",
+            "dosage": "500mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "5 days"
+          }
+        ],
+        "instructions": "Take the anti-inflammatory (Serral) and the NSAID (Surgam) together after meals. Take the antibiotic (Amoxil) with a full glass of water. Complete the full course of the antibiotic even if pain subsides.",
+        "warnings": "Do not take Surgam on an empty stomach. Consult a doctor if you have a history of stomach ulcers or kidney problems. Discontinue Amoxil and seek immediate medical attention if you develop a rash or difficulty breathing."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Voveran (Diclofenac Potassium 50mg)",
+            "dosage": "50mg",
+            "frequency": "Twice daily (BD)",
+            "duration": "3 days"
+          },
+          {
+            "name": "Panadol Extra (Paracetamol 500mg + Caffeine 65mg)",
+            "dosage": "2 tablets",
+            "frequency": "Three times daily (TDS)",
+            "duration": "3 days"
+          }
+        ],
+        "instructions": "Take Voveran after a meal to minimize stomach irritation. Take Panadol Extra as needed for breakthrough pain, ensuring not to exceed 8 tablets in 24 hours.",
+        "warnings": "Do not take Voveran if you have a history of heart disease or stomach bleeding. Avoid excessive caffeine intake. Do not combine with other Paracetamol-containing products."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Brufen (Ibuprofen 400mg)",
+            "dosage": "400mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "3 days"
+          },
+          {
+            "name": "Panadol (Paracetamol 500mg)",
+            "dosage": "2 tablets",
+            "frequency": "Three times daily (TDS)",
+            "duration": "3 days"
+          }
+        ],
+        "instructions": "Take Ibuprofen after food. Take Paracetamol for pain relief. Alternate between Ibuprofen and Paracetamol every 4 hours for better pain control.",
+        "warnings": "Do not exceed 1200mg of Ibuprofen per day without medical advice. Do not exceed 8 tablets of Panadol (4000mg Paracetamol) in 24 hours. Consult a doctor if pain persists beyond 3 days."
+      }
+    },
+    "C015": {
+      "conditionId": "C015",
+      "conditionName": "Post-Implant Pain",
+      "premium": {
+        "medications": [
+          {
+            "name": "Tapento IR (Tapentadol 75mg)",
+            "dosage": "75mg",
+            "frequency": "Every 6 hours as needed",
+            "duration": "3 days"
+          },
+          {
+            "name": "Amoxi-Clav (Amoxicillin 875mg + Clavulanic Acid 125mg)",
+            "dosage": "1g",
+            "frequency": "Twice daily",
+            "duration": "7 days"
+          },
+          {
+            "name": "D-Enzyme DS (Serratiopeptidase)",
+            "dosage": "10mg",
+            "frequency": "Twice daily",
+            "duration": "5 days"
+          }
+        ],
+        "instructions": "Take the pain medication (Tapento IR) every 6 hours as needed for severe pain. Start the antibiotic (Amoxi-Clav) immediately and complete the full 7-day course, even if symptoms improve. Take the anti-inflammatory enzyme (D-Enzyme DS) to help reduce swelling.",
+        "warnings": "Tapento IR is a strong opioid analgesic; do not drive or operate heavy machinery. Do not consume alcohol. Amoxi-Clav may cause diarrhea or nausea. Consult a doctor if pain is not controlled or if swelling worsens."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Panadol Ultra (Paracetamol 250mg + Ibuprofen 125mg)",
+            "dosage": "2 tablets",
+            "frequency": "Every 6 hours as needed",
+            "duration": "5 days"
+          },
+          {
+            "name": "Amoxi-Clav (Amoxicillin 625mg + Clavulanic Acid 125mg)",
+            "dosage": "625mg",
+            "frequency": "Twice daily",
+            "duration": "7 days"
+          },
+          {
+            "name": "Korzin (Serratiopeptidase)",
+            "dosage": "5mg",
+            "frequency": "Twice daily",
+            "duration": "5 days"
+          }
+        ],
+        "instructions": "Take 2 tablets of Panadol Ultra every 6 hours as needed for pain. Start the antibiotic (Amoxi-Clav) immediately and complete the full 7-day course. Take the anti-inflammatory enzyme (Korzin) to help reduce swelling.",
+        "warnings": "Do not exceed 8 tablets of Panadol Ultra in 24 hours. Amoxi-Clav may cause diarrhea or nausea. Consult a doctor if pain is not controlled or if swelling worsens."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Brufen (Ibuprofen)",
+            "dosage": "400mg",
+            "frequency": "Every 6 hours as needed",
+            "duration": "5 days"
+          },
+          {
+            "name": "Amoxi-Clav (Amoxicillin 625mg + Clavulanic Acid 125mg)",
+            "dosage": "625mg",
+            "frequency": "Twice daily",
+            "duration": "5 days"
+          }
+        ],
+        "instructions": "Take one Brufen tablet every 6 hours as needed for pain. Start the antibiotic (Amoxi-Clav) immediately and complete the full 5-day course.",
+        "warnings": "Take Brufen with food to minimize stomach upset. Do not exceed 6 tablets of Brufen in 24 hours. Consult a doctor if pain is not controlled or if swelling worsens."
+      }
+    },
+    "C016": {
+      "conditionId": "C016",
+      "conditionName": "Post-Surgical Infection",
+      "premium": {
+        "medications": [
+          {
+            "name": "Amoxi Clav (Co-Amoxiclav)",
+            "dosage": "1000 mg",
+            "frequency": "Twice daily (BD)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Ibuprol Plus (Ibuprofen + Paracetamol)",
+            "dosage": "1 tablet",
+            "frequency": "Three times daily (TDS)",
+            "duration": "As needed for pain (max 3 days)"
+          }
+        ],
+        "instructions": "Take the antibiotic with food to minimize stomach upset and complete the full 7-day course. Take the painkiller after meals. Rinse the surgical site gently with warm salt water (1 teaspoon of salt in 1 cup of warm water) 3-4 times a day, starting 24 hours after surgery.",
+        "warnings": "Discontinue the antibiotic immediately and seek medical attention if severe, persistent diarrhea or an allergic reaction (rash, swelling) occurs. Do not exceed the recommended dosage for the painkiller, especially if you have a history of stomach ulcers or kidney problems.",
+        "cost_effectiveness": "Best/most effective treatment (Higher Cost)"
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Amoxil/Moxiget (Amoxicillin)",
+            "dosage": "500 mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Flagyl (Metronidazole)",
+            "dosage": "400 mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Brufen (Ibuprofen)",
+            "dosage": "400 mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "As needed for pain (max 3 days)"
+          }
+        ],
+        "instructions": "Take both antibiotics with food and complete the full 7-day course. Take the painkiller after meals. Rinse the surgical site gently with warm salt water (1 teaspoon of salt in 1 cup of warm water) 3-4 times a day, starting 24 hours after surgery.",
+        "warnings": "**ABSOLUTELY AVOID ALCOHOL** while taking Metronidazole (Flagyl) and for 48 hours after the last dose, as this can cause severe nausea and vomiting. Do not take Ibuprofen if you have a history of stomach ulcers.",
+        "cost_effectiveness": "Good balance of cost and effectiveness (Moderate Cost)"
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Dalacin C (Clindamycin)",
+            "dosage": "300 mg",
+            "frequency": "Four times daily (QID)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Panadol (Paracetamol)",
+            "dosage": "500 mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "As needed for pain (max 3 days)"
+          }
+        ],
+        "instructions": "Take the antibiotic with a full glass of water to prevent esophageal irritation and complete the full 7-day course. Do not exceed the maximum daily dose of Paracetamol. Rinse the surgical site gently with warm salt water (1 teaspoon of salt in 1 cup of warm water) 3-4 times a day, starting 24 hours after surgery.",
+        "warnings": "Clindamycin may cause severe diarrhea (pseudomembranous colitis). Discontinue if diarrhea is persistent or bloody and seek medical attention. Overdose of Paracetamol can cause severe liver damage.",
+        "cost_effectiveness": "Most affordable option (Lower Cost)"
+      }
+    },
+    "C017": {
+      "conditionId": "C017",
+      "conditionName": "Dental Trauma",
+      "premium": {
+        "medications": [
+          {
+            "name": "Amoxicillin (e.g., Amoxil)",
+            "dosage": "500mg",
+            "frequency": "Three times a day (TDS)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Metronidazole (e.g., Flagyl)",
+            "dosage": "400mg",
+            "frequency": "Three times a day (TDS)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Ibuprofen (e.g., Brufen)",
+            "dosage": "400mg",
+            "frequency": "Three times a day (TDS)",
+            "duration": "3-5 days (as needed)"
+          },
+          {
+            "name": "Paracetamol (e.g., Panadol)",
+            "dosage": "500mg",
+            "frequency": "Three times a day (TDS)",
+            "duration": "3-5 days (as needed)"
+          }
+        ],
+        "instructions": "Immediate dental consultation is mandatory for definitive treatment. For avulsed teeth, store in milk or saline and seek emergency care. Take the full course of antibiotics as prescribed, even if symptoms improve. Apply a cold compress to the injured area to minimize swelling.",
+        "warnings": "Metronidazole can cause a severe reaction with alcohol (disulfiram-like reaction); avoid all alcohol products. Do not exceed the maximum daily dose for analgesics. Amoxicillin may cause allergic reactions (rash, difficulty breathing)."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Amoxicillin (e.g., Supramox)",
+            "dosage": "500mg",
+            "frequency": "Three times a day (TDS)",
+            "duration": "5-7 days"
+          },
+          {
+            "name": "Ibuprofen (e.g., Profinal)",
+            "dosage": "400mg",
+            "frequency": "Three times a day (TDS)",
+            "duration": "3-5 days (as needed)"
+          }
+        ],
+        "instructions": "Seek dental care within 24-48 hours. Maintain a soft diet and avoid chewing on the injured side. Rinse mouth gently with warm salt water after meals to keep the area clean. Take Ibuprofen with food to prevent stomach upset.",
+        "warnings": "Ibuprofen is contraindicated in patients with a history of peptic ulcers, severe kidney disease, or severe heart failure. Discontinue Amoxicillin immediately and seek medical attention if an allergic reaction occurs."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Paracetamol (e.g., Panadol)",
+            "dosage": "500mg",
+            "frequency": "Four times a day (QDS)",
+            "duration": "3 days (as needed)"
+          }
+        ],
+        "instructions": "Immediate referral to a dentist is crucial for assessment and treatment. Use Paracetamol for pain relief. Gently rinse the mouth with warm salt water to aid healing and cleanliness. Avoid hot or cold foods.",
+        "warnings": "Do not take Paracetamol with any other product containing Paracetamol. Exceeding the maximum daily dose (4000mg) can cause severe and potentially fatal liver damage. Antibiotics are not included in this basic tier unless a clear infection is diagnosed by a dentist."
+      }
+    },
+    "C018": {
+      "conditionId": "C018",
+      "conditionName": "Orthodontic Pain",
+      "premium": {
+        "medications": [
+          {
+            "name": "Celbexx (Celecoxib)",
+            "dosage": "200 mg",
+            "frequency": "Twice daily (BD)",
+            "duration": "3 days"
+          },
+          {
+            "name": "Lignocain Gel 2% (Lidocaine)",
+            "dosage": "Apply a thin layer",
+            "frequency": "As needed (PRN)",
+            "duration": "Until pain subsides"
+          }
+        ],
+        "instructions": "Take the capsule with food to minimize stomach upset. Apply the gel directly to the painful area of the gums or oral mucosa before meals or before bed.",
+        "warnings": "Do not exceed the recommended dose. Celecoxib may increase the risk of serious cardiovascular events and gastrointestinal bleeding. Use the lowest effective dose for the shortest duration possible. Consult a doctor if pain persists beyond 3 days."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Ansaid (Flurbiprofen)",
+            "dosage": "100 mg",
+            "frequency": "Twice daily (BD)",
+            "duration": "3 days"
+          }
+        ],
+        "instructions": "Take the tablet after meals to reduce the risk of stomach irritation. If stomach upset occurs, consider taking an antacid.",
+        "warnings": "Flurbiprofen is a potent NSAID and should be used with caution in patients with a history of stomach ulcers or kidney problems. Do not take with other NSAIDs."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Panadol (Paracetamol)",
+            "dosage": "1000 mg (2 tablets of 500mg)",
+            "frequency": "Every 6 hours (Q6H)",
+            "duration": "3 days"
+          }
+        ],
+        "instructions": "Take the tablets with a glass of water. Do not take more than 4 doses in 24 hours.",
+        "warnings": "Do not exceed 4000 mg of Paracetamol in 24 hours to avoid liver damage. Avoid taking with other Paracetamol-containing products."
+      }
+    },
+    "C021": {
+      "conditionId": "C021",
+      "conditionName": "Pre-Medication (Immunocompromised)",
+      "premium": {
+        "medications": [
+          {
+            "name": "Amoxicillin/Clavulanic Acid (e.g., Augmentin, Vulamox)",
+            "dosage": "875mg/125mg",
+            "frequency": "Single dose",
+            "duration": "1 hour before procedure"
+          }
+        ],
+        "instructions": "Take the full dose with a glass of water 1 hour before the dental procedure. This combination is preferred for its broader spectrum of activity, offering the highest level of protection.",
+        "warnings": "Do not take if allergic to penicillin. May cause diarrhea or nausea. Reserved for patients with the highest risk of infection."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Amoxicillin (e.g., Amoxil, Novamox)",
+            "dosage": "2g (2000mg)",
+            "frequency": "Single dose",
+            "duration": "1 hour before procedure"
+          }
+        ],
+        "instructions": "Take the full dose (e.g., four 500mg capsules) with a glass of water 1 hour before the dental procedure. This is the standard first-line regimen.",
+        "warnings": "Do not take if allergic to penicillin."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Clindamycin (e.g., Dalacin C, Clinacin)",
+            "dosage": "600mg",
+            "frequency": "Single dose",
+            "duration": "1 hour before procedure"
+          }
+        ],
+        "instructions": "Take the full dose (e.g., two 300mg capsules) with a glass of water 1 hour before the dental procedure. This option is primarily for patients with a confirmed penicillin allergy.",
+        "warnings": "Reserved for patients with penicillin allergy. Has a higher risk of *Clostridium difficile*-associated diarrhea (CDAD) compared to Amoxicillin."
+      }
+    },
+    "C023": {
+      "conditionId": "C023",
+      "conditionName": "Emergency Analgesic",
+      "premium": {
+        "medications": [
+          {
+            "name": "Ansaid (Flurbiprofen) 100mg",
+            "dosage": "1 tablet",
+            "frequency": "Every 8 hours",
+            "duration": "3 days"
+          },
+          {
+            "name": "Panadol Extra (Paracetamol 500mg + Caffeine 65mg)",
+            "dosage": "2 tablets",
+            "frequency": "Every 6 hours (alternate with Ansaid)",
+            "duration": "3 days"
+          }
+        ],
+        "instructions": "Take Ansaid with food to minimize stomach upset. Alternate Ansaid and Panadol Extra every 3-4 hours for continuous pain relief. Do not exceed 3 Ansaid tablets (300mg) and 8 Panadol Extra tablets (4000mg Paracetamol) in 24 hours.",
+        "warnings": "Do not take if you have a history of stomach ulcers, severe kidney/liver disease, or are in the last trimester of pregnancy. Avoid alcohol. Consult a dentist immediately for definitive treatment."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Brufen (Ibuprofen) 400mg",
+            "dosage": "1 tablet",
+            "frequency": "Every 6-8 hours",
+            "duration": "3 days"
+          },
+          {
+            "name": "Panadol (Paracetamol) 500mg",
+            "dosage": "2 tablets",
+            "frequency": "Every 6 hours (alternate with Brufen)",
+            "duration": "3 days"
+          }
+        ],
+        "instructions": "Take Brufen with food or milk. Alternate Brufen and Panadol every 3-4 hours for continuous pain relief. Do not exceed 3 Brufen tablets (1200mg) and 8 Panadol tablets (4000mg Paracetamol) in 24 hours.",
+        "warnings": "Do not take if you have a history of stomach ulcers, asthma, or severe kidney/liver disease. Consult a dentist immediately for definitive treatment."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Panadol (Paracetamol) 500mg",
+            "dosage": "2 tablets",
+            "frequency": "Every 6 hours",
+            "duration": "3 days"
+          }
+        ],
+        "instructions": "Take tablets with water. Do not exceed 8 tablets (4000mg) in 24 hours. For enhanced effect, consider adding a warm salt water rinse (1/2 tsp salt in a glass of warm water) 3 times a day.",
+        "warnings": "Do not take if you have severe liver disease. Consult a dentist immediately for definitive treatment."
+      }
+    },
+    "C025": {
+      "conditionId": "C025",
+      "conditionName": "Pediatric Pain",
+      "premium": {
+        "medications": [
+          {
+            "name": "Brufen DS Suspension (Ibuprofen 200mg/5ml)",
+            "dosage": "10 mg/kg/dose",
+            "frequency": "Every 6-8 hours as needed",
+            "duration": "3 days"
+          },
+          {
+            "name": "Calpol Suspension (Paracetamol 120mg/5ml)",
+            "dosage": "15 mg/kg/dose",
+            "frequency": "Every 4-6 hours as needed",
+            "duration": "3 days"
+          }
+        ],
+        "instructions": "Alternate between Ibuprofen and Paracetamol every 3-4 hours for maximum pain relief. Ensure the child stays well-hydrated. Apply a cold compress to the affected area if swelling is present.",
+        "warnings": "Do not exceed 4 doses of Paracetamol or 3 doses of Ibuprofen in 24 hours. Consult a dentist or pediatrician if pain persists beyond 3 days or if the child develops a rash, difficulty breathing, or severe vomiting. Ibuprofen should be taken with food to minimize stomach upset."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Brufen Suspension (Ibuprofen 100mg/5ml)",
+            "dosage": "10 mg/kg/dose",
+            "frequency": "Every 6-8 hours as needed",
+            "duration": "3 days"
+          }
+        ],
+        "instructions": "Administer the dose with food or milk to prevent stomach irritation. Encourage the child to rinse their mouth with warm salt water after meals. Maintain good oral hygiene.",
+        "warnings": "Do not use Ibuprofen in children with a history of asthma, kidney problems, or stomach ulcers without consulting a doctor. Discontinue use if signs of allergic reaction appear."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Zancpal Suspension (Paracetamol 120mg/5ml)",
+            "dosage": "15 mg/kg/dose",
+            "frequency": "Every 4-6 hours as needed",
+            "duration": "3 days"
+          }
+        ],
+        "instructions": "Ensure accurate dosing based on the child's weight. Use the provided measuring spoon or syringe. Can be given with or without food.",
+        "warnings": "Paracetamol overdose can cause severe liver damage. Strictly adhere to the recommended dose and frequency. Do not give with any other paracetamol-containing products. Seek immediate medical attention if an overdose is suspected."
+      }
+    },
+    "C026": {
+      "conditionId": "C026",
+      "conditionName": "Pediatric Infection",
+      "premium": {
+        "medications": [
+          {
+            "name": "Amoxicillin-Clavulanate (e.g., Augmentin DS Suspension 457mg/5mL)",
+            "dosage": "45 mg/kg/day (Amoxicillin component)",
+            "frequency": "Twice daily (every 12 hours)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Ibuprofen (e.g., Brufen Suspension 100mg/5mL)",
+            "dosage": "5-10 mg/kg/dose",
+            "frequency": "Every 6-8 hours",
+            "duration": "As needed for pain/fever (max 5 days)"
+          },
+          {
+            "name": "Paracetamol (e.g., Panadol Suspension 120mg/5mL)",
+            "dosage": "10-15 mg/kg/dose",
+            "frequency": "Every 4-6 hours",
+            "duration": "As needed for pain/fever (max 5 days)"
+          }
+        ],
+        "instructions": "Administer the full course of antibiotic, even if symptoms improve. Take Ibuprofen and Paracetamol alternately for better pain and fever control. Shake suspensions well before use. Store antibiotic suspension in the refrigerator.",
+        "warnings": "Discontinue Amoxicillin-Clavulanate immediately and seek medical attention if severe diarrhea, rash, or difficulty breathing occurs. Do not exceed the maximum daily dose for Ibuprofen (40 mg/kg/day) or Paracetamol (60 mg/kg/day)."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Amoxicillin (e.g., Amoxil Suspension 250mg/5mL)",
+            "dosage": "40 mg/kg/day",
+            "frequency": "Three times daily (every 8 hours)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Paracetamol (e.g., Panadol Suspension 120mg/5mL)",
+            "dosage": "10-15 mg/kg/dose",
+            "frequency": "Every 4-6 hours",
+            "duration": "As needed for pain/fever (max 5 days)"
+          }
+        ],
+        "instructions": "Complete the entire 7-day course of Amoxicillin. Take Paracetamol as needed for pain or fever. Shake suspensions well before use.",
+        "warnings": "If there is no improvement in symptoms after 48 hours, consult a dentist. Do not exceed the maximum daily dose for Paracetamol (60 mg/kg/day). If the child has a known penicillin allergy, this protocol is contraindicated."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Amoxicillin (e.g., Amoxilite Suspension 250mg/5mL)",
+            "dosage": "40 mg/kg/day",
+            "frequency": "Three times daily (every 8 hours)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Paracetamol (e.g., Calpol Suspension 120mg/5mL)",
+            "dosage": "10-15 mg/kg/dose",
+            "frequency": "Every 4-6 hours",
+            "duration": "As needed for pain/fever (max 5 days)"
+          }
+        ],
+        "instructions": "Ensure the full 7-day course of antibiotic is taken. Use Paracetamol for relief of pain and fever. Shake suspensions well before use.",
+        "warnings": "If the infection worsens or the child develops a severe rash, stop the medication and seek immediate medical advice. This protocol is not suitable for children with a penicillin allergy."
+      }
+    },
+    "C027": {
+      "conditionId": "C027",
+      "conditionName": "Allergic Reaction",
+      "premium": {
+        "medications": [
+          {
+            "name": "Fexofenadine (Brand: FEXMIT)",
+            "dosage": "180 mg",
+            "frequency": "Once daily (OD)",
+            "duration": "5 days"
+          },
+          {
+            "name": "Prednisolone (Brand: Rapicort)",
+            "dosage": "40 mg",
+            "frequency": "Once daily (OD)",
+            "duration": "5 days"
+          }
+        ],
+        "instructions": "Take both medications with food. Seek immediate medical attention (emergency services) if symptoms include difficulty breathing, swelling of the throat or tongue, or signs of anaphylaxis.",
+        "warnings": "Do not stop the steroid (Prednisolone) abruptly. Monitor for signs of stomach upset or mood changes. Fexofenadine is generally non-drowsy, but caution is advised."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Cetirizine (Brand: Rigix)",
+            "dosage": "10 mg",
+            "frequency": "Once daily (OD)",
+            "duration": "5 days"
+          }
+        ],
+        "instructions": "Take the tablet at night as it may cause drowsiness. Avoid known allergens and discontinue any suspected trigger medication or material.",
+        "warnings": "May cause drowsiness. Avoid driving, operating heavy machinery, or consuming alcohol until you know how the medication affects you."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Chlorpheniramine Maleate (Brand: Piriton)",
+            "dosage": "4 mg",
+            "frequency": "Every 4-6 hours (Q4-6H)",
+            "duration": "3 days"
+          }
+        ],
+        "instructions": "Take as needed for itching, rash, or mild swelling. Do not exceed 6 tablets (24 mg) in 24 hours.",
+        "warnings": "**Significant drowsiness is common.** Avoid driving, operating heavy machinery, or consuming alcohol. This medication is not suitable for severe reactions."
+      }
+    },
+    "C029": {
+      "conditionId": "C029",
+      "conditionName": "Denture Stomatitis",
+      "premium": {
+        "medications": [
+          {
+            "name": "Daktarin Oral Gel (Miconazole 2%)",
+            "dosage": "2.5 ml",
+            "frequency": "4 times a day",
+            "duration": "14 days"
+          }
+        ],
+        "instructions": "Apply the gel to the affected area after removing dentures. Hold the gel in the mouth for as long as possible before swallowing. Continue treatment for at least one week after symptoms disappear.",
+        "warnings": "Do not use if you have liver problems. May interact with other medications, consult your doctor."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Nilstat Oral Drops (Nystatin 100,000 IU/ml)",
+            "dosage": "4-6 ml",
+            "frequency": "4 times a day",
+            "duration": "14 days"
+          }
+        ],
+        "instructions": "Swish the suspension in the mouth for as long as possible before swallowing. Remove dentures before use. Continue treatment for at least 48 hours after symptoms disappear.",
+        "warnings": "May cause mild gastrointestinal upset."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Mecroz Oral Gel (Miconazole 2%)",
+            "dosage": "2.5 ml",
+            "frequency": "2 times a day",
+            "duration": "14 days"
+          }
+        ],
+        "instructions": "Apply a thin layer of the gel to the inner surface of the denture before wearing it. Also, apply to the affected areas in the mouth. Use for at least a week.",
+        "warnings": "Ensure dentures are cleaned thoroughly before applying the gel."
+      }
+    },
+    "C030": {
+      "conditionId": "C030",
+      "conditionName": "Burning Mouth Syndrome",
+      "premium": {
+        "medications": [
+          {
+            "name": "Clonazepam (Rivotril/Clonopin)",
+            "dosage": "0.5 mg",
+            "frequency": "3 times a day",
+            "duration": "4 weeks"
+          },
+          {
+            "name": "Gabapentin (Neurogab/Gabix)",
+            "dosage": "300 mg",
+            "frequency": "3 times a day",
+            "duration": "4 weeks"
+          }
+        ],
+        "instructions": "Dissolve the Clonazepam tablet in 5-10 ml of water and swish for 3-5 minutes, then spit. Do not swallow. Take Gabapentin orally with food. Maintain excellent oral hygiene and avoid irritants like spicy food, alcohol, and acidic drinks.",
+        "warnings": "Clonazepam can cause drowsiness and is habit-forming; avoid driving or operating heavy machinery. Gabapentin may also cause dizziness or sleepiness. Consult a physician before starting treatment, especially if taking other CNS depressants."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Clonazepam (Rivotril/Clonopin)",
+            "dosage": "0.25 mg",
+            "frequency": "3 times a day",
+            "duration": "4 weeks"
+          },
+          {
+            "name": "Amitriptyline (Tryptanol/Amyline)",
+            "dosage": "10 mg",
+            "frequency": "Once daily at bedtime",
+            "duration": "4 weeks"
+          }
+        ],
+        "instructions": "Dissolve the Clonazepam tablet in 5-10 ml of water and swish for 3-5 minutes, then spit. Do not swallow. Take Amitriptyline orally at night to minimize daytime drowsiness. Avoid irritants like spicy food, alcohol, and acidic drinks.",
+        "warnings": "Amitriptyline can cause dry mouth, drowsiness, and constipation. Clonazepam can cause drowsiness. Avoid driving or operating heavy machinery until you know how the medication affects you. Not recommended for patients with a history of heart problems."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Benzydamine Mouthwash (Enziclor/Niflam)",
+            "dosage": "15 ml",
+            "frequency": "3 times a day",
+            "duration": "As needed"
+          },
+          {
+            "name": "Lidocaine Gel 2% (Lignocain)",
+            "dosage": "Apply a pea-sized amount",
+            "frequency": "As needed, up to 4 times a day",
+            "duration": "As needed"
+          }
+        ],
+        "instructions": "Rinse with Benzydamine mouthwash for 30 seconds and spit. Apply Lidocaine gel directly to the most painful areas of the mouth with a clean finger or cotton swab. Avoid irritants like spicy food, alcohol, and acidic drinks.",
+        "warnings": "Do not swallow the mouthwash or the gel. Excessive use of Lidocaine gel can cause numbness in the throat, potentially affecting swallowing. If symptoms persist beyond 2 weeks, consult a specialist."
+      }
+    },
+    "C033": {
+      "conditionId": "C033",
+      "conditionName": "Salivary Gland Infection",
+      "premium": {
+        "medications": [
+          {
+            "name": "Amoxicillin/Clavulanate (e.g., Augmentin, Amoxi-Clav)",
+            "dosage": "875mg/125mg",
+            "frequency": "Twice daily (every 12 hours)",
+            "duration": "10 days"
+          }
+        ],
+        "instructions": "Take medication with food to minimize stomach upset. Apply warm compresses to the affected gland 3-4 times a day. Massage the gland gently to encourage drainage. Use sialogogues (e.g., sour candies, lemon drops) to stimulate saliva flow. Maintain excellent oral hygiene and ensure adequate hydration.",
+        "warnings": "Seek immediate medical attention if you develop a high fever, difficulty breathing or swallowing, or if the swelling rapidly worsens. Discontinue use and consult a doctor if a severe rash or persistent diarrhea occurs."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Cephalexin (e.g., Keflex)",
+            "dosage": "500mg",
+            "frequency": "Four times daily (every 6 hours)",
+            "duration": "7 days"
+          }
+        ],
+        "instructions": "Take medication on an empty stomach for better absorption, or with food if stomach upset occurs. Apply warm compresses to the affected gland 3-4 times a day. Massage the gland gently to encourage drainage. Use sialogogues (e.g., sour candies, lemon drops) to stimulate saliva flow. Maintain adequate hydration.",
+        "warnings": "Seek immediate medical attention if you develop a high fever, difficulty breathing or swallowing, or if the swelling rapidly worsens. Inform your doctor if you have a known penicillin allergy, as cross-reactivity may occur. Discontinue use and consult a doctor if a severe rash or persistent diarrhea occurs."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Amoxicillin/Clavulanate (e.g., Amoxi-Clav, Clavam)",
+            "dosage": "500mg/125mg (625mg total)",
+            "frequency": "Three times daily (every 8 hours)",
+            "duration": "7 days"
+          }
+        ],
+        "instructions": "Take medication with food to minimize stomach upset. Apply warm compresses to the affected gland 2-3 times a day. Use sialogogues (e.g., sour candies) to stimulate saliva flow. Drink plenty of fluids.",
+        "warnings": "Seek immediate medical attention if symptoms do not improve within 48 hours, or if you experience severe pain or fever. Discontinue use and consult a doctor if a severe rash or persistent diarrhea occurs."
+      }
+    },
+    "C034": {
+      "conditionId": "C034",
+      "conditionName": "Oral Thrush (Severe)",
+      "premium": {
+        "medications": [
+          {
+            "name": "Itraconazole (e.g., Sporanox, Itrazox)",
+            "dosage": "200 mg",
+            "frequency": "Once daily",
+            "duration": "14 days"
+          },
+          {
+            "name": "Chlorhexidine Gluconate Mouthwash (e.g., Corsodyl, Hexidine)",
+            "dosage": "10 ml",
+            "frequency": "Twice daily",
+            "duration": "14 days"
+          }
+        ],
+        "instructions": "Swish the mouthwash for 1 minute and spit out. Do not eat or drink for 30 minutes after using the mouthwash. Take the capsule with a full meal to improve absorption.",
+        "warnings": "Itraconazole can interact with many medications. Inform your doctor of all current medications. Not recommended for patients with heart failure or liver disease. Discontinue use of mouthwash if irritation occurs."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Fluconazole (e.g., Diflucan, Bactocan)",
+            "dosage": "100 mg",
+            "frequency": "Once daily",
+            "duration": "14 days"
+          },
+          {
+            "name": "Miconazole Oral Gel (e.g., Daktarin, Micoral)",
+            "dosage": "2.5 ml (1/2 teaspoon)",
+            "frequency": "Four times daily",
+            "duration": "14 days"
+          }
+        ],
+        "instructions": "Take the capsule at the same time each day. Apply the oral gel to the affected areas in the mouth after meals and before bed. Hold the gel in the mouth for as long as possible before swallowing.",
+        "warnings": "Fluconazole can cause liver problems; report any signs of yellowing skin/eyes or dark urine. Miconazole gel may interact with blood thinners (e.g., Warfarin); monitor INR closely."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Nystatin Oral Suspension (e.g., Nilstat, Mystate)",
+            "dosage": "500,000 IU (5 ml)",
+            "frequency": "Four times daily",
+            "duration": "14 days"
+          },
+          {
+            "name": "Sodium Bicarbonate (Baking Soda) Rinse",
+            "dosage": "1 teaspoon in 1 cup of warm water",
+            "frequency": "Four times daily",
+            "duration": "14 days"
+          }
+        ],
+        "instructions": "Swish the Nystatin suspension in the mouth for several minutes, coating all affected areas, and then swallow. Use the sodium bicarbonate rinse after meals and before applying Nystatin.",
+        "warnings": "Nystatin is generally safe but may cause stomach upset. The sodium bicarbonate rinse is for symptomatic relief and is not a primary antifungal treatment."
+      }
+    },
+    "C035": {
+      "conditionId": "C035",
+      "conditionName": "Wisdom Tooth Infection",
+      "premium": {
+        "medications": [
+          {
+            "name": "Augmentin (Amoxicillin + Clavulanic Acid)",
+            "dosage": "625mg",
+            "frequency": "Twice daily (BD)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Flagyl (Metronidazole)",
+            "dosage": "400mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Brufen (Ibuprofen)",
+            "dosage": "400mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "3 days (as needed for pain)"
+          }
+        ],
+        "instructions": "Take antibiotics with food to minimize stomach upset. Complete the full 7-day course of both antibiotics, even if symptoms improve earlier. Use warm salt water rinses (1 teaspoon of salt in a glass of warm water) 4-5 times a day, especially after meals.",
+        "warnings": "Do not consume alcohol while taking Metronidazole. If you experience severe allergic reactions (rash, swelling, difficulty breathing), stop medication and seek immediate medical attention. Ibuprofen may cause stomach irritation; take with food."
+      },
+      "standard": {
+        "medications": [
+          {
+            "name": "Amoxil (Amoxicillin)",
+            "dosage": "500mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Flagyl (Metronidazole)",
+            "dosage": "400mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "7 days"
+          },
+          {
+            "name": "Brufen (Ibuprofen)",
+            "dosage": "400mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "3 days (as needed for pain)"
+          }
+        ],
+        "instructions": "Take antibiotics with food. It is crucial to complete the entire 7-day course of both antibiotics. Maintain strict oral hygiene and use warm salt water rinses 4-5 times a day to clean the infected area.",
+        "warnings": "Avoid alcohol intake with Metronidazole. Discontinue Ibuprofen if stomach pain or bleeding occurs. If no improvement is seen after 3 days, contact your dentist."
+      },
+      "basic": {
+        "medications": [
+          {
+            "name": "Amoxil (Amoxicillin)",
+            "dosage": "500mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "5 days"
+          },
+          {
+            "name": "Panadol (Paracetamol)",
+            "dosage": "500mg",
+            "frequency": "Three times daily (TDS)",
+            "duration": "3 days (as needed for pain)"
+          }
+        ],
+        "instructions": "Take Amoxicillin with a glass of water. Complete the full 5-day course of the antibiotic. Use warm salt water rinses (4-5 times a day) to help reduce inflammation and clean the area.",
+        "warnings": "Do not exceed the recommended dose of Panadol (Paracetamol) as it can cause liver damage. This regimen is for mild, localized infections; seek immediate dental care if swelling or fever worsens."
+      }
+    }
+  },
+  "count": 22
+}
