@@ -8,11 +8,11 @@ export default function Login() {
   const navigate = useNavigate();
   const [error, setError] = useState('');
 
+  // Reuse existing AuthContext.login, but feed it a simple "user" object
   const handleLocalLogin = async (email, name) => {
     try {
       setError('');
 
-      // Call the existing AuthContext login() but with a fake "googleUser" object
       await login({
         email,
         name,
@@ -49,55 +49,52 @@ export default function Login() {
           <p className="mt-2">📞 +92-334-5822-622</p>
         </div>
 
+        {/* Login choices */}
         <div className="mb-6">
-                    {/* Login choices */}
-          <div className="mb-6">
-            <h2 className="text-xl font-semibold text-foreground mb-2 text-center">
-              Sign in to continue
-            </h2>
-            <p className="text-sm text-muted-foreground text-center mb-4">
-              Choose who is using the clinic system right now.
-            </p>
+          <h2 className="text-xl font-semibold text-foreground mb-2 text-center">
+            Sign in to continue
+          </h2>
+          <p className="text-sm text-muted-foreground text-center mb-4">
+            Choose who is using the clinic system right now.
+          </p>
 
-            {error && (
-              <div className="bg-destructive/5 border border-destructive rounded-lg p-3 mb-4 flex items-start gap-2">
-                <AlertCircle className="w-5 h-5 text-destructive flex-shrink-0 mt-0.5" />
-                <p className="text-sm text-destructive">{error}</p>
-              </div>
-            )}
-
-            <div className="space-y-3">
-              <button
-                type="button"
-                onClick={() =>
-                  handleLocalLogin('ahmedakg@gmail.com', 'Dr. Ahmed Abdullah Khan')
-                }
-                className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition"
-              >
-                <User className="w-4 h-4" />
-                Sign in as Dr. Ahmed
-              </button>
-
-              <button
-                type="button"
-                onClick={() =>
-                  handleLocalLogin('meetmrnaveed@gmail.com', 'Naveed')
-                }
-                className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-lg border border-border bg-background text-sm font-medium text-foreground hover:bg-muted transition"
-              >
-                <User className="w-4 h-4" />
-                Sign in as Naveed
-              </button>
+          {error && (
+            <div className="bg-destructive/5 border border-destructive rounded-lg p-3 mb-4 flex items-start gap-2">
+              <AlertCircle className="w-5 h-5 text-destructive flex-shrink-0 mt-0.5" />
+              <p className="text-sm text-destructive">{error}</p>
             </div>
-          </div>
+          )}
 
-          {/* Footer */}
-          <div className="text-center text-xs text-muted-foreground mt-6">
-            <p>Local secure login. Google Sign-In is disabled.</p>
+          <div className="space-y-3">
+            <button
+              type="button"
+              onClick={() =>
+                handleLocalLogin('ahmedakg@gmail.com', 'Dr. Ahmed Abdullah Khan')
+              }
+              className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition"
+            >
+              <User className="w-4 h-4" />
+              Sign in as Dr. Ahmed
+            </button>
+
+            <button
+              type="button"
+              onClick={() =>
+                handleLocalLogin('meetmrnaveed@gmail.com', 'Naveed')
+              }
+              className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-lg border border-border bg-background text-sm font-medium text-foreground hover:bg-muted transition"
+            >
+              <User className="w-4 h-4" />
+              Sign in as Naveed
+            </button>
           </div>
+        </div>
+
+        {/* Footer */}
+        <div className="text-center text-xs text-muted-foreground mt-6">
+          <p>Local secure login. Google Sign-In is disabled.</p>
         </div>
       </div>
     </div>
   );
 }
-
