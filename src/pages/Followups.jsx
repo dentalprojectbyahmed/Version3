@@ -114,7 +114,7 @@ export default function Followups() {
         <div className="bg-card border border-border rounded-xl">
           <div className="border-b border-border px-4 py-2.5 flex items-center justify-between">
             <p className="text-xs text-muted-foreground">
-              Showing {suggestions.length} patient{s suggestions.length === 1 ? '' : 's'} needing attention
+              Showing {suggestions.length} patient{suggestions.length === 1 ? '' : 's'} needing attention
             </p>
           </div>
           <ul className="divide-y divide-border">
